@@ -61,22 +61,22 @@ export default function Home() {
             <PropertyTypeCard
               title="Villas"
               count="12,984"
-              image="https://hebbkx1anhila5yf.public.blob.vercel-storage.com/Screenshot%20from%202025-01-29%2011-27-54-TbmfctnR4N4Q6IyOzZb7SYXE0gA6DB.png"
+              image="https://images.unsplash.com/photo-1580587771525-78b9dba3b914?q=80&w=1974&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
             />
             <PropertyTypeCard
               title="Apartments"
               count="10,627"
-              image="https://hebbkx1anhila5yf.public.blob.vercel-storage.com/Screenshot%20from%202025-01-29%2011-27-54-TbmfctnR4N4Q6IyOzZb7SYXE0gA6DB.png"
+              image="https://images.unsplash.com/photo-1661529221636-b1f8acdd3d11?q=80&w=1974&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
             />
             <PropertyTypeCard
               title="Resorts"
               count="367"
-              image="https://hebbkx1anhila5yf.public.blob.vercel-storage.com/Screenshot%20from%202025-01-29%2011-27-54-TbmfctnR4N4Q6IyOzZb7SYXE0gA6DB.png"
+              image="https://images.unsplash.com/photo-1583037189850-1921ae7c6c22?q=80&w=1975&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
             />
             <PropertyTypeCard
               title="Cottages"
               count="263"
-              image="https://hebbkx1anhila5yf.public.blob.vercel-storage.com/Screenshot%20from%202025-01-29%2011-27-54-TbmfctnR4N4Q6IyOzZb7SYXE0gA6DB.png"
+              image="https://images.unsplash.com/photo-1539081628726-fabb7960a9e0?q=80&w=2071&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
             />
           </div>
         </section>
@@ -102,43 +102,43 @@ export default function Home() {
               reviews={2578}
               price={160}
               originalPrice={250}
-              image="https://hebbkx1anhila5yf.public.blob.vercel-storage.com/Screenshot%20from%202025-01-29%2011-28-05-EgkSZllovVVtqKR00fZW2c1bVaZ11R.png"
+              image="https://images.unsplash.com/photo-1549294413-26f195200c16?q=80&w=1964&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
             />
             <HotelCard
-              name="Montmartre Majesty Hotel"
+              name="Elysee Retreat Hotel"
+              location="Paris"
+              rating={4.8}
+              reviews={2578}
+              price={150}
+              originalPrice={250}
+              image="https://images.unsplash.com/photo-1445019980597-93fa8acb246c?q=80&w=2074&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+            />
+            <HotelCard
+              name="Versailles Vista Inn Hotel"
+              location="Strasbourg"
+              rating={4.7}
+              reviews={2578}
+              price={220}
+              originalPrice={250}
+              image="https://images.unsplash.com/photo-1612143241883-35889d1d65ab?q=80&w=1935&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+            />
+            <HotelCard
+              name="Loire Luxury Lodge"
               location="Marseille"
               rating={4.7}
               reviews={2578}
               price={160}
               originalPrice={250}
-              image="https://hebbkx1anhila5yf.public.blob.vercel-storage.com/Screenshot%20from%202025-01-29%2011-28-05-EgkSZllovVVtqKR00fZW2c1bVaZ11R.png"
+              image="https://images.unsplash.com/photo-1512100356356-de1b84283e18?q=80&w=1975&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
             />
             <HotelCard
-              name="Montmartre Majesty Hotel"
+              name="Mompele  Majesty Hotel"
               location="Marseille"
-              rating={4.7}
+              rating={4.5}
               reviews={2578}
               price={160}
               originalPrice={250}
-              image="https://hebbkx1anhila5yf.public.blob.vercel-storage.com/Screenshot%20from%202025-01-29%2011-28-05-EgkSZllovVVtqKR00fZW2c1bVaZ11R.png"
-            />
-            <HotelCard
-              name="Montmartre Majesty Hotel"
-              location="Marseille"
-              rating={4.7}
-              reviews={2578}
-              price={160}
-              originalPrice={250}
-              image="https://hebbkx1anhila5yf.public.blob.vercel-storage.com/Screenshot%20from%202025-01-29%2011-28-05-EgkSZllovVVtqKR00fZW2c1bVaZ11R.png"
-            />
-            <HotelCard
-              name="Montmartre Majesty Hotel"
-              location="Marseille"
-              rating={4.7}
-              reviews={2578}
-              price={160}
-              originalPrice={250}
-              image="https://hebbkx1anhila5yf.public.blob.vercel-storage.com/Screenshot%20from%202025-01-29%2011-28-05-EgkSZllovVVtqKR00fZW2c1bVaZ11R.png"
+              image="https://images.unsplash.com/photo-1589923158776-cb4485d99fd6?q=80&w=1964&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
             />
           </div>
         </section>
