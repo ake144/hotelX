@@ -48,7 +48,7 @@ export function Logos() {
                 width={112}
                 height={40}
                 src={company.url}
-                className="h-10 w-28 opacity-30 grayscale dark:brightness-0 dark:invert"
+                className="h-10 w-28 opacity-30  dark:brightness-0 dark:invert"
                 alt={company.name}
               />
             ))}

@@ -13,6 +13,7 @@ import { Logos } from "@/components/logo-cloud"
 import TopHotel from "@/components/tophotelCard"
 import { ImagesShow } from "@/components/imagesParallax"
 import { TextRevealCard, TextRevealCardDescription, TextRevealCardTitle } from "@/components/ui/text-reveal-card"
+import { ImageSliderCta } from "@/components/imageSlider"
 
 export default function Home() {
   return (
@@ -175,13 +176,13 @@ export default function Home() {
               title="Get Extra Discount at Azure Oasis Hotel"
               discount={50}
               validDate="Valid only on 14 Jan - 20 Jan 2024"
-              image="https://hebbkx1anhila5yf.public.blob.vercel-storage.com/Screenshot%20from%202025-01-29%2011-28-29-PHphrFg7m0HVXLPhbvGe1rJVm6vdmN.png"
+              image="https://images.unsplash.com/photo-1494778752932-64ee27ba2a37?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
             />
             <PromoCard
               title="Exclusive Deals Just For You"
               discount={75}
               validDate="Valid only on 16 Jan - 28 Jan 2024"
-              image="https://hebbkx1anhila5yf.public.blob.vercel-storage.com/Screenshot%20from%202025-01-29%2011-28-29-PHphrFg7m0HVXLPhbvGe1rJVm6vdmN.png"
+              image="https://images.unsplash.com/photo-1493879351345-2ca88b05346b?q=80&w=1973&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
             />
           </div>
         </section>
@@ -218,6 +219,10 @@ export default function Home() {
           </motion.h2>
 
           <ImagesShow  />
+        </section>
+
+        <section className="container mx-auto px-4 py-16">
+          <ImageSliderCta  />
         </section>
       </main>
 

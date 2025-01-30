@@ -13,7 +13,7 @@ interface PromoCardProps {
 export function PromoCard({ title, discount, validDate, image }: PromoCardProps) {
   return (
     <motion.div
-      className="relative h-[200px] rounded-lg overflow-hidden"
+      className="relative h-[350px] rounded-lg overflow-hidden"
       whileHover={{ scale: 1.02 }}
       transition={{ duration: 0.2 }}
     >
