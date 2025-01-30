@@ -1,7 +1,6 @@
 "use client"
 
 import { motion } from "framer-motion"
-import { Search } from "lucide-react"
 import Image from "next/image"
 import { PropertyTypeCard } from "@/components/property-type-card"
 import { HotelCard } from "@/components/hotel-card"
@@ -55,7 +54,7 @@ export default function Home() {
           >
             Discover your destination   <br />
             <span className="text-sm  text-gray-500">
-               Explore our range of property types for every traveller's perferecnces
+               Explore our range of property types for every traveller&apos;s perferecnces
             </span>
           </motion.h2>
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6">

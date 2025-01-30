@@ -1,9 +1,19 @@
-import { Inter } from "next/font/google"
-import { cn } from "@/lib/utils"
 import "./globals.css"
-import type React from "react" // Import React
+import localFont from "next/font/local";
+import type React from "react"
 
-const inter = Inter({ subsets: ["latin"] })
+
+const geistSans = localFont({
+  src: "./fonts/GeistVF.woff",
+  variable: "--font-geist-sans",
+  weight: "100 900",
+});
+const geistMono = localFont({
+  src: "./fonts/GeistMonoVF.woff",
+  variable: "--font-geist-mono",
+  weight: "100 900",
+});
+
 
 export default function RootLayout({
   children,
@@ -12,7 +22,10 @@ export default function RootLayout({
 }) {
   return (
     <html lang="en" className="scroll-smooth">
-      <body className={cn("min-h-screen bg-background font-sans antialiased", inter.className)}>{children}</body>
+      <body  className={`${geistSans.variable} ${geistMono.variable} antialiased`}>
+           {children}
+        
+        </body>
     </html>
   )
 }
